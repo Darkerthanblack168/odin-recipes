@@ -1,0 +1,17 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    background-color: rgb(241, 215, 202);
+}
+
+.title {
+    background-color: brown;
+    color: yellow;
+    box-shadow: 10px 10px 20px rgb(246, 127, 127);
+    padding: 30px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
