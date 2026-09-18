@@ -1,5 +1,5 @@
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -8,10 +8,82 @@ html {
 
 .title {
     background-color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: yellow;
     box-shadow: 10px 10px 20px rgb(246, 127, 127);
     padding: 30px;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
+}
+
+.container {
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 18px;
+    max-width: fit-content;
+}
+
+#desc {
+    background-color: rgb(243, 243, 122);
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: -10px -20px;
+    width: fit-content;
+    max-height: 200px;
+}
+
+#desc .text {
+    display: inline-block;
+    color: brown;
+    max-width: 50%;
+    vertical-align: top;
+    max-height: 200px;
+}
+
+#desc .text .description {
+    text-wrap: balance;
+}
+
+#desc .img {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 25px;
+    padding-right: 20px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+#list-one, #ingredients, #list-two, #steps {
+    background-color: antiquewhite;
+    color: chocolate;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#list-one, #list-two{
+    margin-top: 0;
+}
+
+#ingredients, #steps{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-bottom: -25px;
+}
+
+.homepage {
+    background-color: yellow;
+    margin: 10px auto;
+    padding: 5px 20px 5px;
+}
+
+.homepage a {
+    text-decoration: none;
+    color: brown;
 }
